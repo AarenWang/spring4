@@ -14,4 +14,6 @@ public class DevConfigSewrviceImpl implements  ConfigService{
     public String getJDBCURL() {
         return "dev.wrj.me";
     }
+
+
 }

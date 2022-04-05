@@ -13,6 +13,14 @@ public class UserModel extends  BaseModel{
 
     private Integer age;
 
+    public UserModel() {
+    }
+
+    public UserModel(String name, Integer age) {
+        this.name = name;
+        this.age = age;
+    }
+
     public String getName() {
         return name;
     }

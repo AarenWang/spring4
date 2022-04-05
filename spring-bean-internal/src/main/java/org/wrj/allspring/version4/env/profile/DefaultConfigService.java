@@ -14,4 +14,7 @@ public class DefaultConfigService implements ConfigService{
     public String getJDBCURL() {
         return "default.wrj.me";
     }
+
+
+
 }
