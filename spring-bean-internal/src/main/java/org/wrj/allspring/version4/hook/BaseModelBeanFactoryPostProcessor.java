@@ -22,10 +22,11 @@ public class BaseModelBeanFactoryPostProcessor implements BeanFactoryPostProcess
             BeanDefinition beanDefinition = beanFactory.getBeanDefinition(def);
             MutablePropertyValues mpv = beanDefinition.getPropertyValues();
 
-            if (beanDefinition.getBeanClassName().endsWith("Model")) {
-                beanDefinition.getPropertyValues().add("createTime", new Timestamp(System.currentTimeMillis()));
-                beanDefinition.getPropertyValues().add("updateTime", new Timestamp(System.currentTimeMillis()));
-            }
+//            if (beanDefinition.getBeanClassName().endsWith("Model")) {
+//                beanDefinition.getPropertyValues().add("createTime", new Timestamp(System.currentTimeMillis()));
+//                beanDefinition.getPropertyValues().add("updateTime", new Timestamp(System.currentTimeMillis()));
+//            }
+//
 
         }
 
